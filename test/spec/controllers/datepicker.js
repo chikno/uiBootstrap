@@ -17,5 +17,10 @@ describe('Controller: DatepickerCtrl', function () {
     });
   }));
 
+  it('should Initialize the dt model with todays date' , function(){
+
+
+  });
+
 
 });
