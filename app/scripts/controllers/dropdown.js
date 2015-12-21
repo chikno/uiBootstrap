@@ -8,11 +8,12 @@
  * Controller of the yeaomanApp
  */
 angular.module('yeaomanApp')
-  .controller('DropDownCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma',
-       'test'
-    ];
+  .controller('DropDownCtrl', function ($scope) {
+
+  	  $scope.items = [
+		    'The first choice!',
+		    'And another choice for you.',
+		    'but wait! A third!'
+		];
+
   });
